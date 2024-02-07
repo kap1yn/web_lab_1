@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="/lab1/static/lab1/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lab1</h1>
+    </header>
+    <nav>
+        <a href="#task1">Завдання 1</a>
+        <a href="#task2">Завдання 2</a>
+        <a href="#task3">Завдання 3</a>
+    </nav>
+    <section id="task1">
+        <h2>Завдання 1</h2>
+        
+        <input type="text" id="nums" name="nums" placeholder="Enter Arr">
+        
+        <button onclick="getAvg()">Get avg</button>
+        <p id="avg_even"></p>
+        <p id="avg_odd"></p>
+        <script src="/lab1/static/lab1/js/task1.js"></script>
+    
+    </section>
+
+    <section id="task2">
+        <h2>Завдання 2</h2>
+
+        <input type="text" id="password_len" placeholder="lenght"> 
+        <button onclick="generatePassword()">Generate</button>
+        <p id="password"></p>
+        <script src="/lab1/static/lab1/js/task2.js"></script>
+    </section>
+
+    <section id="task3">
+        <h2>Завдання 3</h2>
+        
+        <input type="text" id="my_text" placeholder="Enter Text">
+        <button onclick="getLongestWord()">Find it!</button>
+        <p id="longest_word"></p>
+        <p id="longest_word_len"></p>
+        <script src="/lab1/static/lab1/js/task3.js"></script>
+        
+    </section>
+</body>
+</html>
